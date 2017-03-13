@@ -17,10 +17,6 @@ object frmTable: TfrmTable
     Height = 132
     Align = alClient
     TabOrder = 0
-    ExplicitLeft = 48
-    ExplicitTop = 16
-    ExplicitWidth = 185
-    ExplicitHeight = 41
     object SpeedButton1: TSpeedButton
       Left = 1
       Top = 1

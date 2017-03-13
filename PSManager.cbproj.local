@@ -22,5 +22,20 @@
     <Transaction>2017-03-13 15:13:20.208,D:\BITAPP\PSM\trunk\Child_NowInfo.cpp=D:\BITAPP\PSM\trunk\Unit2.cpp</Transaction>
     <Transaction>2017-03-13 15:13:20.208,D:\BITAPP\PSM\trunk\Child_NowInfo.h=D:\BITAPP\PSM\trunk\Unit2.h</Transaction>
     <Transaction>2017-03-13 15:22:53.638,D:\BITAPP\PSM\trunk\FrameNowInfo.cpp=</Transaction>
-  </Transactions>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Child_NowInfo.cpp"/>
+    <File Path="Child_NowInfo.cpp"/>
+    <File Path="Child_NowInfo.dfm"/>
+    <File Path="Child_NowInfo.h"/>
+    <File Path="FrameTable.cpp"/>
+    <File Path="FrameTable.cpp"/>
+    <File Path="FrameTable.dfm"/>
+    <File Path="FrameTable.h"/>
+    <File Path="Main.cpp"/>
+    <File Path="Main.cpp"/>
+    <File Path="Main.dfm"/>
+    <File Path="Main.h"/>
+    <File Path="PSManager.cpp"/>
+    <File Path="PSManagerPCH1.h"/>
+  </ProjectSortOrder>
 </BorlandProject>

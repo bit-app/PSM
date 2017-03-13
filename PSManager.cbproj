@@ -176,6 +176,7 @@
                 <Source>
                     <Source Name="MainSource">PSManager.cpp</Source>
                 </Source>
+                <Folders/>
             </CPlusPlusBuilder.Personality>
             <Deployment Version="2">
                 <DeployFile Condition="'$(DynamicRTL)'=='true'" LocalName="$(BDS)\Redist\osx32\libcgcrtl.dylib" Class="DependencyModule">

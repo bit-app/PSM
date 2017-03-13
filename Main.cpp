@@ -24,10 +24,6 @@ void __fastcall TMainForm::SpeedButton1Click(TObject *Sender)
     {
     	NowInfoForm = new TNowInfoForm(Application);
     }
-    else
-    {
-    	return;
-    }
 }
 //---------------------------------------------------------------------------
 
