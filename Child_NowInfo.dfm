@@ -1,18 +1,21 @@
-object frmNow: TfrmNow
+object NowInfoForm: TNowInfoForm
   Left = 0
   Top = 0
-  Width = 1114
-  Height = 699
-  Align = alClient
+  Caption = 'NowInfoForm'
+  ClientHeight = 644
+  ClientWidth = 998
+  Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
-  ParentFont = False
-  TabOrder = 0
-  ExplicitWidth = 451
-  ExplicitHeight = 304
+  FormStyle = fsMDIChild
+  OldCreateOrder = False
+  Visible = True
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
   object FlowPanel1: TFlowPanel
     Left = 15
     Top = 11
@@ -34,6 +37,10 @@ object frmNow: TfrmNow
       ExplicitLeft = 1
       ExplicitTop = 1
       inherited Panel1: TPanel
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 186
+        ExplicitHeight = 132
         inherited Panel2: TPanel
           Caption = '30,000'
         end
@@ -54,6 +61,10 @@ object frmNow: TfrmNow
       ExplicitLeft = 187
       ExplicitTop = 1
       inherited Panel1: TPanel
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 186
+        ExplicitHeight = 132
         inherited SpeedButton1: TSpeedButton
           Caption = #53580#51060#48660' 2'
         end
@@ -77,6 +88,10 @@ object frmNow: TfrmNow
       ExplicitLeft = 1
       ExplicitTop = 133
       inherited Panel1: TPanel
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 186
+        ExplicitHeight = 132
         inherited SpeedButton1: TSpeedButton
           Caption = #53580#51060#48660' 3'
         end
@@ -100,6 +115,10 @@ object frmNow: TfrmNow
       ExplicitLeft = 187
       ExplicitTop = 133
       inherited Panel1: TPanel
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 186
+        ExplicitHeight = 132
         inherited SpeedButton1: TSpeedButton
           Caption = #53580#51060#48660' 4'
         end
@@ -123,6 +142,10 @@ object frmNow: TfrmNow
       ExplicitLeft = 1
       ExplicitTop = 265
       inherited Panel1: TPanel
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 186
+        ExplicitHeight = 132
         inherited SpeedButton1: TSpeedButton
           Caption = #53580#51060#48660' 5'
         end
@@ -146,6 +169,10 @@ object frmNow: TfrmNow
       ExplicitLeft = 187
       ExplicitTop = 265
       inherited Panel1: TPanel
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 186
+        ExplicitHeight = 132
         inherited SpeedButton1: TSpeedButton
           Caption = #53580#51060#48660' 6'
         end
@@ -169,6 +196,10 @@ object frmNow: TfrmNow
       ExplicitLeft = 1
       ExplicitTop = 397
       inherited Panel1: TPanel
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 186
+        ExplicitHeight = 132
         inherited SpeedButton1: TSpeedButton
           Caption = #53580#51060#48660' 7'
         end
@@ -192,6 +223,10 @@ object frmNow: TfrmNow
       ExplicitLeft = 187
       ExplicitTop = 397
       inherited Panel1: TPanel
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 186
+        ExplicitHeight = 132
         inherited SpeedButton1: TSpeedButton
           Caption = #53580#51060#48660' 8'
         end
@@ -215,6 +250,10 @@ object frmNow: TfrmNow
       ExplicitLeft = 1
       ExplicitTop = 529
       inherited Panel1: TPanel
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 186
+        ExplicitHeight = 132
         inherited SpeedButton1: TSpeedButton
           Caption = #53580#51060#48660' 9'
         end
@@ -238,6 +277,10 @@ object frmNow: TfrmNow
       ExplicitLeft = 187
       ExplicitTop = 529
       inherited Panel1: TPanel
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 186
+        ExplicitHeight = 132
         inherited SpeedButton1: TSpeedButton
           Caption = #53580#51060#48660' 10'
         end

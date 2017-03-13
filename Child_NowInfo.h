@@ -1,17 +1,16 @@
 //---------------------------------------------------------------------------
 
-#ifndef FrameNowInfoH
-#define FrameNowInfoH
+#ifndef Child_NowInfoH
+#define Child_NowInfoH
 //---------------------------------------------------------------------------
 #include <System.Classes.hpp>
 #include <Vcl.Controls.hpp>
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
-#include <Vcl.ExtCtrls.hpp>
-#include <Vcl.Buttons.hpp>
 #include "FrameTable.h"
+#include <Vcl.ExtCtrls.hpp>
 //---------------------------------------------------------------------------
-class TfrmNow : public TFrame
+class TNowInfoForm : public TForm
 {
 __published:	// IDE-managed Components
 	TFlowPanel *FlowPanel1;
@@ -27,9 +26,9 @@ __published:	// IDE-managed Components
 	TfrmTable *frmTable10;
 private:	// User declarations
 public:		// User declarations
-	__fastcall TfrmNow(TComponent* Owner);
+	__fastcall TNowInfoForm(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
-extern PACKAGE TfrmNow *frmNow;
+extern PACKAGE TNowInfoForm *NowInfoForm;
 //---------------------------------------------------------------------------
 #endif

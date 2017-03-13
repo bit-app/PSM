@@ -1,4 +1,4 @@
-object Form1: TForm1
+object MainForm: TMainForm
   Left = 0
   Top = 0
   Caption = 'Perchases & Sales Management'
@@ -10,9 +10,9 @@ object Form1: TForm1
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  FormStyle = fsMDIForm
   OldCreateOrder = False
   Position = poScreenCenter
-  OnClose = FormClose
   PixelsPerInch = 96
   TextHeight = 13
   object GridPanel1: TGridPanel
@@ -180,17 +180,5 @@ object Form1: TForm1
       ExplicitWidth = 23
       ExplicitHeight = 22
     end
-  end
-  object pnlMainFrame: TPanel
-    Left = 0
-    Top = 65
-    Width = 1200
-    Height = 697
-    Align = alClient
-    TabOrder = 1
-    ExplicitLeft = 391
-    ExplicitTop = 336
-    ExplicitWidth = 185
-    ExplicitHeight = 41
   end
 end

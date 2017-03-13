@@ -13,7 +13,7 @@
 #include <Vcl.ImgList.hpp>
 #include <Vcl.Buttons.hpp>
 //---------------------------------------------------------------------------
-class TForm1 : public TForm
+class TMainForm : public TForm
 {
 __published:	// IDE-managed Components
 	TGridPanel *GridPanel1;
@@ -24,14 +24,13 @@ __published:	// IDE-managed Components
 	TSpeedButton *SpeedButton5;
 	TSpeedButton *SpeedButton6;
 	TSpeedButton *SpeedButton7;
-	TPanel *pnlMainFrame;
 	void __fastcall SpeedButton1Click(TObject *Sender);
-	void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
 private:	// User declarations
+	bool __fastcall CheckForm(String FormName);
 public:		// User declarations
-	__fastcall TForm1(TComponent* Owner);
+	__fastcall TMainForm(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
-extern PACKAGE TForm1 *Form1;
+extern PACKAGE TMainForm *MainForm;
 //---------------------------------------------------------------------------
 #endif

@@ -3,15 +3,15 @@
 #include <vcl.h>
 #pragma hdrstop
 
-#include "FrameNowInfo.h"
+#include "Child_NowInfo.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma link "FrameTable"
 #pragma resource "*.dfm"
-TfrmNow *frmNow;
+TNowInfoForm *NowInfoForm;
 //---------------------------------------------------------------------------
-__fastcall TfrmNow::TfrmNow(TComponent* Owner)
-	: TFrame(Owner)
+__fastcall TNowInfoForm::TNowInfoForm(TComponent* Owner)
+	: TForm(Owner)
 {
 }
 //---------------------------------------------------------------------------

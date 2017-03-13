@@ -4,28 +4,43 @@
 #pragma hdrstop
 
 #include "Main.h"
-#include "FrameNowInfo.h"
+#include "Child_NowInfo.h"
 //---------------------------------------------------------------------------
 #pragma package(smart_init)
 #pragma resource "*.dfm"
-TForm1 *Form1;
+TMainForm *MainForm;
 //---------------------------------------------------------------------------
-__fastcall TForm1::TForm1(TComponent* Owner)
+__fastcall TMainForm::TMainForm(TComponent* Owner)
 	: TForm(Owner)
 {
 
 }
 //---------------------------------------------------------------------------
-void __fastcall TForm1::SpeedButton1Click(TObject *Sender)
+void __fastcall TMainForm::SpeedButton1Click(TObject *Sender)
 {
-	TfrmNow *frmNow = new TfrmNow(pnlMainFrame);
-    frmNow->Parent = pnlMainFrame;
+	String FormName = "NowInfoForm";
+
+    if(CheckForm(FormName) == false)
+    {
+    	NowInfoForm = new TNowInfoForm(Application);
+    }
+    else
+    {
+    	return;
+    }
 }
 //---------------------------------------------------------------------------
 
-void __fastcall TForm1::FormClose(TObject *Sender, TCloseAction &Action)
+bool __fastcall TMainForm::CheckForm(String FormName)
 {
-	delete frmNow;
+    for (int i = 0; i < MDIChildCount; i++)
+    {
+        if(MDIChildren[i]->Name.SubString(1, 11) == FormName)
+        {
+            MDIChildren[i]->BringToFront();
+            return true;
+        }
+    }
+    return false;
 }
-//---------------------------------------------------------------------------
 

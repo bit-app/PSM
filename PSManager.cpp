@@ -6,9 +6,9 @@
 //---------------------------------------------------------------------------
 #include <Vcl.Styles.hpp>
 #include <Vcl.Themes.hpp>
-USEFORM("FrameNowInfo.cpp", frmNow); /* TFrame: File Type */
-USEFORM("Main.cpp", Form1);
+USEFORM("Main.cpp", MainForm);
 USEFORM("FrameTable.cpp", frmTable); /* TFrame: File Type */
+USEFORM("Child_NowInfo.cpp", NowInfoForm);
 //---------------------------------------------------------------------------
 int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 {
@@ -17,7 +17,7 @@ int WINAPI _tWinMain(HINSTANCE, HINSTANCE, LPTSTR, int)
 		Application->Initialize();
 		Application->MainFormOnTaskBar = true;
 		TStyleManager::TrySetStyle("Emerald Light Slate");
-		Application->CreateForm(__classid(TForm1), &Form1);
+		Application->CreateForm(__classid(TMainForm), &MainForm);
 		Application->Run();
 	}
 	catch (Exception &exception)
